@@ -1,4 +1,5 @@
 # cryptoscan
+![ci](https://github.com/munnamihir/cryptoscan/actions/workflows/ci.yml/badge.svg)
 
 **Discover the cryptography in a codebase and emit a CycloneDX CBOM with post-quantum risk classification.**
 
