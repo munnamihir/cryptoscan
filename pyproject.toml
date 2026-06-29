@@ -11,9 +11,20 @@ requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [{ name = "Mihir Bommisetty" }]
 keywords = ["post-quantum", "cryptography", "CBOM", "CycloneDX", "PQC", "security"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Security :: Cryptography",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/munnamihir/cryptoscan-pqc"
+Repository = "https://github.com/munnamihir/cryptoscan-pqc"
 
 [project.scripts]
-cryptoscan = "cryptoscan.cli:main"
+pqscan = "cryptoscan.cli:main"
 
 [tool.setuptools]
 packages = ["cryptoscan"]
