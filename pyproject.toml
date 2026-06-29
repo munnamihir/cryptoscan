@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptoscan"
+version = "0.1.0"
+description = "Discover cryptographic assets and emit a CycloneDX CBOM with post-quantum risk classification"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Mihir Bommisetty" }]
+keywords = ["post-quantum", "cryptography", "CBOM", "CycloneDX", "PQC", "security"]
+
+[project.scripts]
+cryptoscan = "cryptoscan.cli:main"
+
+[tool.setuptools]
+packages = ["cryptoscan"]
